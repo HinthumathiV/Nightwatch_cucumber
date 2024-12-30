@@ -1,0 +1,29 @@
+{
+  "name": "nightwatch_cucumber",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "nightwatch_cucumber",
+    "cucumber": "cucumber-js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "description": "",
+  "devDependencies": {
+    "@cucumber/cucumber": "^7.3.2",
+    "@cucumber/cucumber-expressions": "^10.0.0",
+    "@cucumber/gherkin": "^9.0.0",
+    "cucumber": "^6.0.7",
+    "glob": "^9.0.0",
+    "lru-cache": "^7.0.0",
+    "nightwatch": "^3.9.0",
+    "selenium-server": "^3.141.59"
+  },
+  "dependencies": {
+    "chromedriver": "^131.0.4",
+    "selenium-webdriver": "^4.27.0",
+    "uuid": "^7.0.0"
+  }
+}
